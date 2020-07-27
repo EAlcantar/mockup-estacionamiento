@@ -1,0 +1,63 @@
+body{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parkin{
+    position: absolute;
+    width: 234px;
+    height: 126px;
+    left: 88px;
+    top: 71px;
+
+    font-family: Fjalla One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 63px;
+    text-align: center;
+    letter-spacing: 0.23em;
+
+    color: #554843;
+}
+
+.car{
+    position: absolute;
+    width: 482px;
+    height: 510px;
+    left: -32px;
+    top: 224px; 
+
+    background: url(raban-haaijk-wftNpcjCHT4-unsplash.jpg);
+}
+
+.button{
+    position: absolute;
+    width: 265px;
+    height: 37px;
+    left: 80px;
+    top: 613px;
+
+    background: rgba(255, 255, 255, 0.51);
+    border-radius: 20px;
+}
+
+.loginText{
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 188px;
+    top: 623px;
+
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #231813;
+}
