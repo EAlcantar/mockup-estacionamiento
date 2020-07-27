@@ -1,0 +1,151 @@
+body{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.orangeSquare{
+    position: absolute;
+    width: 411px;
+    height: 365px;
+    left: 0px;
+    top: 0px;
+
+    background: #ED7242;        
+}
+
+.welcome{
+    position: absolute;
+    width: 255px;
+    height: 50px;
+    left: 78px;
+    top: 134px;
+
+    font-family: Fjalla One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.23em;
+
+    color: #FFFFFF;
+}
+
+.userRectangle{
+    position: absolute;
+    width: 292px;
+    height: 355px;
+    left: 59px;
+    top: 238px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 15px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.emailText{
+    position: absolute;
+    width: 168px;
+    height: 23px;
+    left: 92px;
+    top: 305px;
+
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.emailBox{
+    position: absolute;
+    width: 245px;
+    height: 30px;
+    left: 83px;
+    top: 335px;
+
+    background: rgba(138, 133, 133, 0.11);
+    border-radius: 10px;
+}
+
+.passwordText{
+    position: absolute;
+    width: 106px;
+    height: 23px;
+    left: 92px;
+    top: 416px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.passwordBox{
+    position: absolute;
+    width: 245px;
+    height: 30px;
+    left: 83px;
+    top: 446px;
+
+    background: rgba(138, 133, 133, 0.11);
+    border-radius: 10px;
+}
+
+.loginButton{
+    position: absolute;
+    width: 130px;
+    height: 30px;
+    left: 140px;
+    top: 527px;
+
+    background: rgba(237, 114, 66, 0.9);
+    border-radius: 10px;
+}
+
+.loginText{
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 183px;
+    top: 533px;
+
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.forgottenPassword{
+    position: absolute;
+    width: 179px;
+    height: 18px;
+    left: 116px;
+    top: 657px;
+
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
