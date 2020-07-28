@@ -11,7 +11,7 @@ body {
 
 #body-container {
    display: grid;
-   grid-template-columns: 100px 1fr; /* Menu lateral 130px de ancho */
+   grid-template-columns: 110px 1fr; /* Menu lateral 130px de ancho */
    grid-template-rows: 100vh; /* Altura al 100% de pantalla */
    grid-area: 'menu', 'content';
 }
