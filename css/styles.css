@@ -136,12 +136,14 @@ background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, F
 
 /* Template para forms */
 .form-container {
+   display: flex;
+   flex-direction: column;
    margin-top: auto;
    margin-bottom: auto;
 }
 
 .form-input {
-   margin: 2em;
+   margin: .5em;
 }
 
 .form-input input {
@@ -162,6 +164,24 @@ background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, F
 
 /* Titulo absoluto (No modifica el espacio de otros elementos */
 .title {
-   margin-top: 3em;
+   margin-top: 4.5em;
    position: absolute;
+}
+
+.profile-img {
+   width: 150px;
+   align-self: center;
+   margin-bottom: 3em;
+}
+
+.profile-label {
+   font-size: 1.25em;
+}
+
+.profile-label i {
+   margin: .5em ;
+}
+
+.buttons-bottom {
+   margin-top: 3em;
 }
