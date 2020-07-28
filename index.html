@@ -1,153 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="initial-scale=1.0, width=device-width, height: device-height"
-    />
-    <title>Sidebar Template</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="sidebar">
-        <ul class="menu">
-          <li class="menu-item">
-            <img
-              src="http://i.pravatar.cc/150?img=5"
-              alt="Profile picture"
-              class="profile-picture"
-            />
-          </li>
-          <li class="menu-item"><a href="#home" class="link">Home</a></li>
-          <li class="menu-item"><a href="#about" class="link">About</a></li>
-          <li class="menu-item">
-            <a href="#service" class="link">Services</a>
-          </li>
-          <li class="menu-item"><a href="#contact" class="link">Contact</a></li>
-        </ul>
-      </div>
-      <div class="content">
-        <section id="home">
-          <span class="title">Welcome</span>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            veniam laborum architecto voluptatum debitis?
-          </p>
-        </section>
-        <section id="about">
-          <span class="title">About</span>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo,
-            perspiciatis consectetur suscipit eaque facilis quidem porro in
-            velit possimus eos unde esse dolorem vel id sequi magnam vero.
-            Debitis, amet.
-          </p>
-        </section>
-        <section id="service">
-          <span class="title">Services</span>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-            corrupti quis consequatur nesciunt excepturi! Eveniet, totam sint?
-            Distinctio maiores nisi inventore rem blanditiis quidem, assumenda
-            quas quasi eius? Velit, doloribus!
-          </p>
-          <div class="card-container">
-            <div class="card">
-              <img
-                src="https://via.placeholder.com/100"
-                alt="Thumbnail"
-                class="card-thumbnail"
-              />
-              <h3 class="card-title">Title</h3>
-              <small class="card-subtitle">Subtitle</small>
-              <p class="card-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus, iusto.
-              </p>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css\styles.css">
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+   <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+   <title>Document</title>
+</head>
+<body>
+   <div id="body-container">
+      <aside id="menu">
+         <div class="menu--item-container">
+            <div class="menu-icon">
+               <i class="lni lni-home"></i>
             </div>
-            <div class="card">
-              <img
-                src="https://via.placeholder.com/100"
-                alt="Thumbnail"
-                class="card-thumbnail"
-              />
-              <h3 class="card-title">Title</h3>
-              <small class="card-subtitle">Subtitle</small>
-              <p class="card-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus, iusto.
-              </p>
+            <p class="menu--label">Inicio</p>
+         </div>
+
+         <div class="menu--item-container">
+            <div class="menu-icon">
+               <i class="lni lni-calendar"></i>
             </div>
-            <div class="card">
-              <img
-                src="https://via.placeholder.com/100"
-                alt="Thumbnail"
-                class="card-thumbnail"
-              />
-              <h3 class="card-title">Title</h3>
-              <small class="card-subtitle">Subtitle</small>
-              <p class="card-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus, iusto.
-              </p>
+            <p class="menu--label">Dashboard</p>
+         </div>
+
+         <div class="menu--item-container">
+            <div class="menu-icon">
+               <i class="lni lni-wallet"></i>
             </div>
-            <div class="card">
-              <img
-                src="https://via.placeholder.com/100"
-                alt="Thumbnail"
-                class="card-thumbnail"
-              />
-              <h3 class="card-title">Title</h3>
-              <small class="card-subtitle">Subtitle</small>
-              <p class="card-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus, iusto.
-              </p>
+            <p class="menu--label">Reglas de Cobro</p>
+         </div>
+
+         <div class="menu--item-container">
+            <div class="menu-icon">
+               <i class="lni lni-users"></i>
             </div>
-          </div>
-        </section>
-        <section id="contact">
-          <span class="title">Contact</span>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Architecto, tempore!
-          </p>
-          <form action="" class="contact-form">
-            <label for="name">Name</label>
-            <input
-              class="form-control"
-              type="text"
-              placeholder="Enter your name"
-              id="name"
-            />
-            <label for="subject">Subject</label>
-            <input
-              class="form-control"
-              type="text"
-              placeholder="Enter the subject"
-              id="subject"
-            />
-            <label for="email">E-mail</label>
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Enter your e-mail"
-              id="email"
-            />
-            <label for="message">Message</label>
-            <textarea
-              class="form-control"
-              id="message"
-              placeholder="Write your message..."
-              cols="30"
-              rows="10"
-            ></textarea>
-            <input type="button" class="btn btn-submit" value="Submit" />
-          </form>
-        </section>
-      </div>
-    </div>
-  </body>
+            <p class="menu--label">Checadores</p>
+         </div>
+
+         <!-- Profile item --> <!-- (Last Item) -->
+         <div class="menu--item-container" id="last-item">
+            <div class="profile-pic">
+               <img src="https://www.biography.com/.image/t_share/MTY2MzU3Nzk2OTM2MjMwNTkx/elon_musk_royal_society.jpg">
+            </div>
+            <p class="menu--label">Perfil</p>
+         </div>
+         <div class="menu--item-container">
+            <span><i class="lni lni-exit"></i> Log Out</span>
+         </div>
+      </aside>
+
+      <section id="content">
+         
+      </section>
+   </div>
+</body>
 </html>
