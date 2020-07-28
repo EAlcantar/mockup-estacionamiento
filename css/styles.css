@@ -7,7 +7,6 @@
 
 body {
    font-family: 'Open Sans', sans-serif;
-
 }
 
 #body-container {
@@ -117,6 +116,7 @@ background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, F
    margin-right: .25em;
 }
 
+/* Template para tablas */
 .table-container {
    margin-top: 2em;
 }
@@ -132,4 +132,36 @@ background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, F
 
 .main-table i {
    padding: .5em;
+}
+
+/* Template para forms */
+.form-container {
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.form-input {
+   margin: 2em;
+}
+
+.form-input input {
+   font-size: 1.25em;
+   padding: .25em;
+   margin-top: .25em;
+}
+
+.flex {
+   display: flex;
+   justify-content: center;
+}
+
+.flex button {
+   font-size: 1.25em;
+   padding: .5em;
+}
+
+/* Titulo absoluto (No modifica el espacio de otros elementos */
+.title {
+   margin-top: 3em;
+   position: absolute;
 }
