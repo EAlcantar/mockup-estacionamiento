@@ -193,3 +193,22 @@ background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, F
 .buttons-bottom {
    margin-top: 3em;
 }
+
+#chart1 {
+   display: grid;
+   
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 70px 70px 100px;
+   width: 1000px;
+   padding: 30px;
+   text-align: center;
+   margin: 30px auto auto auto;
+   grid-gap: 5px;
+   grid-template-areas: "header header header" 
+                        "second second second"
+                        "third third third";
+}
+
+#first {
+   grid-area: header
+}
