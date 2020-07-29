@@ -1,0 +1,281 @@
+body{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 411px;
+    height: 731px;
+
+    background: #EFEFEF;
+}
+
+
+.pieChartPorcent{
+    position: absolute;
+    width: 189px;
+    height: 117px;
+    left: 111px;
+    top: 126px;
+
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 117px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.porcentajeBox{
+    position: absolute;
+    width: 330px;
+    height: 285px;
+    left: 40px;
+    top: 42px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 5px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.porcentajeCircle{
+    position: absolute;
+    width: 212px;
+    height: 208px;
+    left: 99px;
+    top: 80px;
+    
+    background: #FFC93E;
+
+    border-radius: 50%;   
+}
+
+.total{
+    position: absolute;
+    width: 330px;
+    height: 151px;
+    left: 40px;
+    top: 385px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 5px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+ 
+.fechaText{
+    position: absolute;
+    width: 190px;
+    height: 18px;
+    left: 67px;
+    top: 409px;
+
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+
+    text-align: center;
+
+    color: #000000; 
+}
+
+.linea_1{
+position: absolute;
+width: 330px;
+height: 0px;
+left: 40px;
+top: 445px;
+
+border: 1px solid rgba(190, 190, 190, 0.54);
+transform: rotate(-0.02deg); 
+}
+
+.linea_2{
+    position: absolute;
+    width: 90px;
+    height: 0px;
+    left: 102px;
+    top: 490px;
+
+    border: 1px solid rgba(190, 190, 190, 0.54);
+    transform: rotate(90deg); 
+}
+
+.linea_3{
+    position: absolute;
+    width: 90px;
+    height: 0px;
+    left: 215px;
+    top: 490px;
+
+    border: 1px solid rgba(190, 190, 190, 0.54);
+    transform: rotate(90deg); 
+}
+
+.autos{
+    position: absolute;
+    width: 50px;
+    height: 36px;
+    left: 70px;
+    top: 456px;
+
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #FA3A3A;
+}
+
+
+
+/* Pensión */
+
+
+.pension{
+position: absolute;
+width: 57px;
+height: 18px;
+left: 177px;
+top: 465px;
+
+font-family: Karla;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+
+text-align: center;
+
+color: #1180BE;  
+}
+
+
+/* Por hora */
+
+.hora{
+    position: absolute;
+    width: 61px;
+    height: 18px;
+    left: 280px;
+    top: 465px;
+
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+
+    text-align: center;
+
+    color: #039600;  
+}
+
+
+/* 100 */
+
+.autoNumero{
+position: absolute;
+width: 41px;
+height: 29px;
+left: 75px;
+top: 498px;
+
+font-family: Karla;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+
+color: #FA3A3A;
+}
+
+
+/* 25 */
+
+.pensionNumero{
+position: absolute;
+width: 30px;
+height: 29px;
+left: 190px;
+top: 498px;
+
+font-family: Karla;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+
+color: #1180BE; 
+}
+
+
+/* 75 */
+
+.horaNumero{
+position: absolute;
+width: 28px;
+height: 29px;
+left: 295px;
+top: 498px;
+
+font-family: Karla;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+
+color: #039600;
+}
+
+.navegacionBox{
+    position: absolute;
+    width: 411px;
+    height: 108px;
+    left: 0px;
+    top: 656px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 5px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.plusButton{
+    position: absolute;
+    width: 59px;
+    height: 60px;
+    left: 175px;
+    top: 663px;
+    
+    background: #71C5BB;
+    border: 5px solid #F4F4F4;
+    box-sizing: border-box;
+
+    border-radius: 50%;
+}
+
+.plusIcon{
+    position: absolute;
+    width: 27px;
+    height: 58px;
+    left: 191px;
+    top: 659px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 58px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
