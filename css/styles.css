@@ -162,6 +162,14 @@ background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, F
    padding: .5em;
 }
 
+.flex i {
+   color: #F09819;
+   font-size: 1.65em;
+   padding-left: .5em;
+   padding-top: .1em;
+   margin-bottom: 1em;
+}
+
 /* Titulo absoluto (No modifica el espacio de otros elementos */
 .title {
    margin-top: 4.5em;
