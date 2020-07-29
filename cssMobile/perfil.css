@@ -1,0 +1,271 @@
+body{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background: #DD3030;
+}
+
+.perfilText{
+    position: absolute;
+    width: 362px;
+    height: 651px;
+    left: 24px;
+    top: 41px;
+    
+    background: #FFFBFB;
+    border-radius: 30px;
+}
+
+.imagenPerfil{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 130px;
+    top: 75px;
+
+    background: #C4C4C4;
+    border-radius: 20px;    
+}
+
+.nombre{
+    position: absolute;
+    width: 223px;
+    height: 35px;
+    left: 94px;
+    top: 254px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.05em;
+    
+    color: #000000;
+}
+
+.tipoText{
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    left: 76px;
+    top: 318px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.05em;
+    
+    color: rgba(0, 0, 0, 0.6);
+    
+}
+
+.tipoInput{
+    position: absolute;
+    width: 55px;
+    height: 18px;
+    left: 78px;
+    top: 336px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: #000000;
+}
+
+.nacimientoText{
+    position: absolute;
+    width: 117px;
+    height: 18px;
+    left: 76px;
+    top: 387px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.05em;
+    
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.nacimientoInput{
+    position: absolute;
+    width: 150px;
+    height: 18px;
+    left: 58px;
+    top: 405px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: #000000;
+}
+
+.correoText{
+    position: absolute;
+    width: 118px;
+    height: 18px;
+    left: 76px;
+    top: 456px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.05em;
+    
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.correoInput{
+    position: absolute;
+    width: 142px;
+    height: 18px;
+    left: 76px;
+    top: 474px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: #000000;
+}
+
+.telText{
+    position: absolute;
+    width: 54px;
+    height: 18px;
+    left: 76px;
+    top: 525px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.05em;
+    
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.telInput{
+    position: absolute;
+    width: 63px;
+    height: 18px;
+    left: 76px;
+    top: 543px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: #000000;
+    
+}
+
+.estacionamientoText{
+    position: absolute;
+    width: 112px;
+    height: 18px;
+    left: 76px;
+    top: 594px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.05em;
+    
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.estacionamientoInput{
+    position: absolute;
+    width: 164px;
+    height: 18px;
+    left: 78px;
+    top: 612px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: #000000;
+}
+
+.contraseñaOlvidada{
+    position: absolute;
+    width: 179px;
+    height: 18px;
+    left: 115px;
+    top: 663px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #000000;
+}
