@@ -513,3 +513,35 @@ body{
     
     color: #FFFFFF;
 }
+
+.casa{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 30px;
+    top: 677px;
+}
+
+.auto{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 108px;
+    top: 677px;
+}
+
+.perfil{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 262px;
+    top: 677px;
+}
+
+.config{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 337px;
+    top: 677px;
+}

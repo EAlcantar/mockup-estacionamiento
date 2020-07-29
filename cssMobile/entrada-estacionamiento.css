@@ -495,3 +495,51 @@ body{
     
     color: #FFFFFF;
 }
+
+.casa{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 30px;
+    top: 677px;
+}
+
+.auto{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 108px;
+    top: 677px;
+}
+
+.perfil{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 262px;
+    top: 677px;
+}
+
+.config{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 337px;
+    top: 677px;
+}
+
+.calendario{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 41px;
+    top: 386px;
+}
+
+.arrow{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 25px;
+    top: 39px;
+}

@@ -1,0 +1,168 @@
+body{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: #EFEFEF;
+}
+
+.config{
+    position: absolute;
+    width: 218px;
+    height: 35px;
+    left: 63px;
+    top: 70px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.05em;
+    
+    color: #000000;
+}
+
+.contrasenaBox{
+    position: absolute;
+    width: 283px;
+    height: 43px;
+    left: 63px;
+    top: 290px;
+    
+    background: #000000;
+    border-radius: 20px;
+}
+
+.contrasenaText{
+    position: absolute;
+    width: 178px;
+    height: 23px;
+    left: 115px;
+    top: 300px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    
+    color: #FFFFFF;
+}
+
+.logoutBox{
+    position: absolute;
+    width: 283px;
+    height: 43px;
+    left: 63px;
+    top: 398px;
+    
+    background: #000000;
+    border-radius: 20px;
+}
+
+.logoutText{
+    position: absolute;
+    width: 60px;
+    height: 23px;
+    left: 174px;
+    top: 408px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    
+    color: #FFFFFF;
+}
+
+.navegacionBox{
+    position: absolute;
+    width: 411px;
+    height: 108px;
+    left: 0px;
+    top: 656px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 5px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.plusButton{
+    position: absolute;
+    width: 59px;
+    height: 60px;
+    left: 175px;
+    top: 663px;
+    
+    background: #71C5BB;
+    border: 5px solid #F4F4F4;
+    box-sizing: border-box;
+
+    border-radius: 50%;
+}
+
+.plusIcon{
+    position: absolute;
+    width: 27px;
+    height: 58px;
+    left: 191px;
+    top: 659px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 58px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.casa{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 30px;
+    top: 677px;
+}
+
+.auto{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 108px;
+    top: 677px;
+}
+
+.perfil{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 262px;
+    top: 677px;
+}
+
+.config{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 337px;
+    top: 677px;
+}
+
+.arrow{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 25px;
+    top: 39px;
+}
