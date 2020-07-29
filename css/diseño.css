@@ -1,0 +1,68 @@
+h1 {
+    padding: 15px;
+    padding-left: 550px;
+    margin: 20px;
+  }
+
+  
+  
+  form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 400px;
+
+ 
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /*espaciado */
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+  }
+  
+
+
+  
+  .button {
+    /* Alinear los botones con los campos de texto */
+    padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+  }
+  
+  button {
+    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+       entre las etiquetas y sus campos de texto */
+    margin-left: .5em;
+  }
+
+.vinculo{
+    position: relative;
+    left:100px;
+}
+  
+    .btn {
+      padding: 7px 7px;
+      background-color: #008CBA;
+      color: white;
+      font-size: 20px;
+      position: relative;
+      border-radius: 8px;
+    
+      left:110px;
+        }
+    
+  .img1
+  {
+    border-radius: 10px;
+  }
