@@ -1,0 +1,365 @@
+body{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #EFEFEF;
+}
+
+.salidaTextInicio{
+position: absolute;
+width: 94px;
+height: 35px;
+left: 68px;
+top: 39px;
+
+font-family: Karla;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.05em;
+
+color: #000000;
+}
+
+.entradaBox{
+    position: absolute;
+    width: 104px;
+    height: 42px;
+    left: 26px;
+    top: 98px;
+    
+    background: #FFFFFF;
+    border: 2px solid #939292;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.entradaBoxText{
+    position: absolute;
+    width: 55px;
+    height: 15px;
+    left: 51px;
+    top: 112px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.estacionadoBox{
+    position: absolute;
+    width: 104px;
+    height: 42px;
+    left: 153px;
+    top: 98px;
+    
+    background: #FFFEFE;
+    border: 2px solid #939292;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.estacionadoBoxText{
+    position: absolute;
+    width: 90px;
+    height: 15px;
+    left: 160px;
+    top: 112px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.salidaBox{
+    position: absolute;
+    width: 104px;
+    height: 42px;
+    left: 280px;
+    top: 98px;
+    
+    background: #000000;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.salidaBoxText{
+    position: absolute;
+    width: 42px;
+    height: 15px;
+    left: 311px;
+    top: 112px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.buscarBox{
+    position: absolute;
+    width: 358px;
+    height: 32px;
+    left: 26px;
+    top: 174px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.buscarBoxText{
+    position: absolute;
+    width: 55px;
+    height: 18px;
+    left: 42px;
+    top: 181px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.05em;
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.carroBox{
+    position: absolute;
+    width: 358px;
+    height: 112px;
+    left: 28px;
+    top: 240px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.tipoText{
+    position: absolute;
+    width: 129px;
+    height: 29px;
+    left: 80px;
+    top: 247px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    
+    color: #000000;
+}
+
+.entradaText{
+    position: absolute;
+    width: 42px;
+    height: 15px;
+    left: 45px;
+    top: 288px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.entradaPrint{
+    position: absolute;
+    width: 99px;
+    height: 15px;
+    left: 100px;
+    top: 288px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: #000000;
+}
+
+.servicioText{
+    position: absolute;
+    width: 42px;
+    height: 15px;
+    left: 45px;
+    top: 318px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.servicioPrint{
+    position: absolute;
+    width: 40px;
+    height: 15px;
+    left: 100px;
+    top: 318px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: #000000;
+}
+
+.salidaText{
+    position: absolute;
+    width: 34px;
+    height: 15px;
+    left: 215px;
+    top: 288px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.salidaPrint{
+    position: absolute;
+    width: 99px;
+    height: 15px;
+    left: 270px;
+    top: 287px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: #000000;
+}
+
+.placasText{
+    position: absolute;
+    width: 34px;
+    height: 15px;
+    left: 215px;
+    top: 318px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.placasPrint{
+    position: absolute;
+    width: 41px;
+    height: 15px;
+    left: 270px;
+    top: 318px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: #000000;
+}
+
+.navegacionBox{
+    position: absolute;
+    width: 411px;
+    height: 108px;
+    left: 0px;
+    top: 656px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 5px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.plusButton{
+    position: absolute;
+    width: 59px;
+    height: 60px;
+    left: 175px;
+    top: 663px;
+    
+    background: #71C5BB;
+    border: 5px solid #F4F4F4;
+    box-sizing: border-box;
+
+    border-radius: 50%;
+}
+
+.plusIcon{
+    position: absolute;
+    width: 27px;
+    height: 58px;
+    left: 191px;
+    top: 659px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 58px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
