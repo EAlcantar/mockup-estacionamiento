@@ -73,6 +73,11 @@ background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, F
 .card-columns .card {
    margin: 35px 70px 50px 90px;
 }
+.dialog {
+   margin: 35px 70px 50px 90px;
+   text-align: center;
+   box-sizing: border-box;
+}
 .card-deck {
 	display: -ms-flexbox;
 	display: flex;
