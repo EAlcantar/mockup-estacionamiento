@@ -6,23 +6,23 @@ body{
 }
 
 .salidaTextInicio{
-position: absolute;
-width: 94px;
-height: 35px;
-left: 68px;
-top: 39px;
+    position: absolute;
+    width: 94px;
+    height: 35px;
+    left: 68px;
+    top: 39px;
 
-font-family: Karla;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 35px;
-/* identical to box height */
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    /* identical to box height */
 
-text-align: center;
-letter-spacing: -0.05em;
+    text-align: center;
+    letter-spacing: -0.05em;
 
-color: #000000;
+    color: #000000;
 }
 
 .entradaBox{

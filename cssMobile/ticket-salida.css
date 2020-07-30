@@ -471,6 +471,46 @@ body{
     
 }
 
+.boletoPrintText{
+    position: absolute;
+    width: 110px;
+    height: 18px;
+    left: 57px;
+    top: 617px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.05em;
+    
+    color: #000000;
+}
+
+.marcarSalida{
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    left: 244px;
+    top: 617px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.05em;
+    
+    color: #000000;
+}
+
 .navegacionBox{
     position: absolute;
     width: 411px;
